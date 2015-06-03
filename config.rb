@@ -76,3 +76,5 @@ activate :deploy do |deploy|
   deploy.branch = 'master'
   deploy.build_before = true
 end
+
+sprockets.append_path File.join root.to_s, "bower_components"
